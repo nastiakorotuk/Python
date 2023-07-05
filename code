@@ -1,0 +1,19 @@
+import random
+
+def random_function_1():
+    print("This is random function 1")
+
+def random_function_2():
+    print("This is random function 2")
+
+# Інші функції random_function_3, random_function_4, і так далі...
+
+def random_function_100():
+    print("This is random function 100")
+
+# Створення списку з усіма функціями
+random_functions = [random_function_1, random_function_2, ..., random_function_100]
+
+# Виклик рандомної функції
+random_function = random.choice(random_functions)
+random_function()
